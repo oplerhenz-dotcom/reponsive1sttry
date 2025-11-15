@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta lang="en-US">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <style>
+        body{
+            margin:0;
+            background-color: grey;
+        }
+        .heading{   
+            position:fixed;
+            width:100%;
+            top:1px;
+            background-color: rgba(0, 0, 0, 0.671);
+            color:white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .text{
+            color:black;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            display:flex;
+            justify-items:center;
+            font-size: 5vw;
+            font-weight: bold;
+            margin:20px;
+        }
+        .about{
+            max-width:100%;
+             margin:50px;
+             padding:1rem;
+             font-size:2vw;
+             box-shadow:5px 5px 10px 10px rgba(0, 0, 0, 0.774)
+        }
+        .about >h1{
+            color:white;
+        }
+        .grid{
+            display:inline-block;
+            justify-items:center;
+            margin:25px;
+            border:1px solid black;
+            border-radius: 10px;
+            background-color: rgb(53, 53, 53);
+            padding:10px;
+            box-shadow: 0px 0px 30px 10px white;
+        }
+        img{
+            height:15rem;
+            width:15rem;
+            
+        }
+        .family{
+            color: rgb(27, 22, 22);
+            font-size:2rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            text-align: center;
+           
+        }
+        .container{
+            width:100%;
+            background-color:rgb(36, 36, 36);
+            height:300px;
+            text-align: center;
+            margin-top: 100px;
+            display:block;
+        }
+
+        @media screen and (max-width:600px) {
+            .heading > h1 {
+                text-align:center;
+            }
+            .about{
+            max-width:100%;
+             margin:50px;
+             padding:1rem;
+             font-size:3vw;
+             box-shadow:5px 5px 10px 10px rgba(0, 0, 0, 0.774);}
+             .grid{
+                margin:100px;
+                justify-content: center;
+             }
+
+        }
+    </style>
+    <title>responsive</title>
+    </head>
+    <body>
+       <main>
+        <section>
+            <header class="heading">
+                <h1>Rhenz's Page</h1>
+            </header>
+        </section>
+         <br> <br>
+        <section class="text">
+            <p>I am Rhenz, This is my sample website for a responsive webpage.</p>
+        </section>
+        <section class="about me">
+                <H1>learn About Me</H1>
+                <p>I want to become a successful software engineer because I am passionate about solving problems, building creative solutions, and constantly learning new technologies. I know the journey will require dedication, patience, and hard work, but I am determined to grow my skills and stay curious. Every challenge I face will be an opportunity to become better, and every line of code will bring me closer to my goals.</p>
+                
+        </section>
+        <section>
+            <header class="family">
+             <h1>My Family Member</h1>
+             </header>
+             <div class="grid">
+                <div class="image">
+                    <img src="person.webp">
+                    <p style="font-size:2rem;color:white;">This is my Facther</p>
+                </div>
+                </div>
+                <div class="grid">
+                    <div class="image">
+                        <img src="person.webp">
+                        <p style="font-size:2rem;color:white;">This is my Mother</p>
+                    </div>
+                    </div>
+                    <div class="grid">
+                        <div class="image">
+                            <img src="person.webp">
+                            <p style="font-size:2rem ;color:white;">This is my Me</p>
+                        </div>
+                        </div>
+                        <div class="grid">
+                            <div class="image">
+                                <img src="person.webp">
+                                <p style="font-size:2rem;color:white;">This is my Sister</p>
+                            </div>
+                            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <br>
+                <br>
+                <h1>MY SOCIALS  </h1>
+                <br>
+                <p>My Facebook:<a href="">Rhenz John Ople</a>
+                    <p>My Instagram:<a href="">Reunszi</p></a>
+
+            </div>
+        </footer>
+        </main>
+    </body>
+</html>
